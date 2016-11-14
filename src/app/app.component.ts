@@ -36,12 +36,12 @@ export class AppComponent implements OnInit {
   constructor(private domElement: ElementRef) {}
 
   ngOnInit() {
-    const elements = this.domElement.nativeElement,
-      simpleChartEl = elements.children[3],
-      complextChartEl = elements.children[6],
-      interpolationEl = elements.children[9],
-      barChartEl = elements.children[12],
-      simpleNetworkEl = elements.children[15],
+    const elements = this.domElement.nativeElement.children,
+      simpleChartEl = elements[3],
+      complextChartEl = elements[6],
+      interpolationEl = elements[9],
+      barChartEl = elements[12],
+      simpleNetworkEl = elements[15],
       simpleChartOpts = {
         start: -30,
         end: 30,
