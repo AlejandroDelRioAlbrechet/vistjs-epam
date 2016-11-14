@@ -1,6 +1,6 @@
 # VisjsTest
 
-# Sample project which demo vizjs form EPAM employees.
+# Sample project which demo vizjs for EPAM employees.
 
 This project was generated with [angular-cli](https://github.com/angular/angular-cli) version 1.0.0-beta.17.
 
